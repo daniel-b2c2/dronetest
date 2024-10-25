@@ -2,7 +2,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.drone\\.yaml"],
+      "fileMatch": ["^\\.drone\\.yml"],
       "matchStrings": ["^ *image: &bazel_image.*:(?<currentValue>.*?)\\n"],
       "depNameTemplate": "busybox",
       "datasourceTemplate": "docker"
