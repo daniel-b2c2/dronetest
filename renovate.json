@@ -4,7 +4,7 @@
       "customType": "regex",
       "fileMatch": ["^\\.drone\\.yaml"],
       "matchStrings": ["image: &bazel_image.*:(?<currentValue>.*?)\\n"],
-      "depNameTemplate": "b2c2ltd/bazel",
+      "depNameTemplate": "jenkinsciinfra/aws",
       "datasourceTemplate": "docker"
     }
   ],
