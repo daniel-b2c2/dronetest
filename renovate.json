@@ -4,7 +4,7 @@
       "customType": "regex",
       "fileMatch": ["^\\.drone\\.yml"],
       "matchStrings": [" *image: &bazel_image.*:(?<currentValue>.*?)\\n"],
-      "depName": "busybox",
+      "depNameTemplate": "busybox",
       "datasourceTemplate": "docker"
     }
   ],
