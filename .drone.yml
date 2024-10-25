@@ -1,0 +1,9 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+
+  - name: mystage
+    image: &bazel_image jenkinsciinfra/aws:0.0.2
+    volumes: blah
