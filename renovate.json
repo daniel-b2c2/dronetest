@@ -1,4 +1,13 @@
 {
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^\\.drone\\.yaml"],
+      "matchStrings": ["image: &bazel_image.*:(?<currentValue>.*?)\\n"],
+      "depNameTemplate": "b2c2ltd/bazel",
+      "datasourceTemplate": "docker"
+    }
+  ],
   "dependencyDashboard": true,
   "extends": [
     "config:recommended"
