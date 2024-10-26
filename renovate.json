@@ -16,6 +16,10 @@
     {
       "matchPackagePatterns": ["^bazel$"],
       "groupName": "Bazel Version And Docker Image"
+    },
+    {
+      "matchPackagePatterns": ["io.netty"],
+      "groupName": "Netty"
     }
   ]
 }
