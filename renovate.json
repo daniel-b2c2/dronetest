@@ -11,7 +11,7 @@
   "dependencyDashboard": true,
   "extends": [
     "config:recommended"
-  ]
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": ["^bazel$"],
