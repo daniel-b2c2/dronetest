@@ -12,4 +12,10 @@
   "extends": [
     "config:recommended"
   ]
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^bazel$"],
+      "groupName": "Bazel Version And Docker Image"
+    }
+  ]
 }
